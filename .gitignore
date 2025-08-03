@@ -1,3 +1,9 @@
-doc_env
+doc_env/
 document_portal.egg-info
 .env
+__pycache__/
+*.pyc
+logs/
+test.py
+venv/
+env

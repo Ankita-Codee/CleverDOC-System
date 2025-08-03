@@ -6,4 +6,6 @@ langchain_community
 langchain_huggingface
 pypdf
 faiss-cpu
+structlog
+pyMuPDF
 -e .
