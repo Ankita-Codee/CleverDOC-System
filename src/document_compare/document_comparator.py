@@ -20,7 +20,7 @@ class DocumentComparatorLLm:
         """
         pass
     
-    def format_response():
+    def _format_response():
         """
         Format the response from the LLm into a structured format.
         """
