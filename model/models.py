@@ -11,4 +11,6 @@ class Metadata(BaseModel):
     Publisher: str
     Language: str
     PageCount: Union[int, str]  # Can be "Not Available"
-    SentimentTone: str
+    SentimentTone: str  
+
+        
