@@ -7,4 +7,6 @@ logs/
 test.py
 venv/
 env
-#archive/
+faiss_index/
+main_archive/
+data/
