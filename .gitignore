@@ -50,4 +50,4 @@ logs/
 test.py
 venv/
 env
-#archive/
+#archive/doc_env/
