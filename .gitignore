@@ -29,7 +29,7 @@ main_archive/
 # Secrets & configs
 .env
 .env.*
-.doc_env
+
 
 
 # Logs
