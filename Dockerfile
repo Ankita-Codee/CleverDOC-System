@@ -24,7 +24,7 @@ RUN apt-get clean && \
 
 # Copy project files
 COPY requirements.txt .
-COPY .env .
+#COPY .env .
 COPY . .
 
 # Install Python dependencies
