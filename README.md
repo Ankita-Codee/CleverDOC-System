@@ -46,7 +46,6 @@ Similarly, **researchers** can compare policy drafts or technical reports to tra
 ✅ Query any uploaded file using natural language prompts  
 ✅ Compare two documents and extract differences in text or meaning  
 ✅ Retrieve context-aware answers using **RAG**  
-✅ Generate AI-based visuals using **Azure AI Foundry**  
 ✅ Fully **containerized** using Docker for easy deployment  
 ✅ Cloud-native deployment via **AWS ECS Fargate**  
 ✅ Automated CI/CD with **GitHub Actions**  
