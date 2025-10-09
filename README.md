@@ -1,68 +1,66 @@
-# Project Setup Guide
+# 🧠 Clever Doc System
 
-## Create Project Folder and Environment Setup
+## 🔍 Overview / Use Case
+**Clever Doc System** is an **LLM-powered intelligent document analysis platform** that combines **Retrieval-Augmented Generation (RAG)** with **large language models (LLMs)** to perform deep document understanding, comparison, and visualization.
 
-```bash
-# Create a new project folder
-mkdir <project_folder_name>
+Users can:
+- Upload multiple documents (PDF, DOCX, TXT, etc.)
+- Query any uploaded file using natural language
+- Compare two files to find similarities, differences, or contextual updates
 
-# Move into the project folder
-cd <project_folder_name>
+💡 **Real-World Example:**
+A **legal or compliance team** can upload multiple versions of a contract. The system automatically identifies and summarizes the clause changes, deadline updates, or modified obligations.  
+Similarly, **researchers** can compare policy drafts or technical reports to track changes and insights over time.
 
-# Open the folder in VS Code
-code .
+---
 
-# Create a new Conda environment with Python 3.10
-conda create -p <env_name> python=3.10 -y
+## 🧰 Technology Used
+| Technology | Purpose |
+|-------------|----------|
+| **OpenAI API** | LLM-based document analysis, comparison, and Q&A |
+| **OpenAI Embeddings** | Converts text into vectors for semantic search |
+| **Pinecone** | Vector database for storing and retrieving embeddings |
+| **Azure AI Foundry** | Image generation and model deployment |
+| **FastAPI** | Lightweight Python backend for API development |
+| **Docker** | Containerization for deployment |
+| **GitHub Actions (CI/CD)** | Automated build, test, and deployment pipeline |
+| **AWS ECR & ECS Fargate** | Cloud infrastructure for scalable deployments |
+| **Python + VS Code** | Development environment |
+| **python-dotenv** | Secure management of API keys and environment variables |
 
-# Activate the environment (use full path to the environment)
-conda activate <path_of_the_env>
+---
 
-# Install dependencies from requirements.txt
-pip install -r requirements.txt
+## 🏗️ Architecture Overview
+1. **User Interface:** Upload files and submit queries or comparisons  
+2. **Backend (FastAPI):** Handles file management, embeddings, and query logic  
+3. **RAG Engine:** Retrieves contextually relevant chunks from Pinecone  
+4. **LLM Layer (OpenAI):** Generates summaries, differences, and answers  
+5. **Image Generator (Azure AI Foundry):** Creates visual summaries or creative outputs  
+6. **Storage Layer:** Stores embeddings and processed data (Pinecone + AWS)  
+7. **CI/CD Pipeline:** Automated testing and deployment via GitHub Actions  
 
-# Initialize Git
-git init
+---
 
-# Stage all files
-git add .
+## ⚙️ Key Features
+✅ Upload and analyze multiple documents simultaneously  
+✅ Query any uploaded file using natural language prompts  
+✅ Compare two documents and extract differences in text or meaning  
+✅ Retrieve context-aware answers using **RAG**  
+✅ Generate AI-based visuals using **Azure AI Foundry**  
+✅ Fully **containerized** using Docker for easy deployment  
+✅ Cloud-native deployment via **AWS ECS Fargate**  
+✅ Automated CI/CD with **GitHub Actions**  
+✅ Secure environment management using **python-dotenv**  
 
-# Commit changes
-git commit -m "<write your commit message>"
+---
 
-# Push to remote (after adding remote origin)
-git push
+## 🚀 Future Enhancements
+🔹 Implement **authentication and role-based access control (RBAC)**  
+🔹 Add a **frontend dashboard (React + Bootstrap)** for visual interaction  
+🔹 Integrate **OCR and speech-to-text** for image and audio-based documents  
+🔹 Include **LangGraph orchestration** for multi-step document workflows  
+🔹 Add **version history and visual diff viewer**  
 
-# Cloning the repository
-git clone https://github.com/sunnysavita10/document_portal.git
-```
-## Minimum Requirements for the Project
+---
 
-### LLM Models
-- **Groq** (Free)
-- **OpenAI** (Paid)
-- **Gemini** (15 Days Free Access)
-- **Claude** (Paid)
-- **Hugging Face** (Free)
-- **Ollama** (Local Setup)
-
-### Embedding Models
-- **OpenAI**
-- **Hugging Face**
-- **Gemini**
-
-### Vector Databases
-- **In-Memory**
-- **On-Disk**
-- **Cloud-Based**
-
-## API Keys
-
-### GROQ API Key
-- [Get your API Key](https://console.groq.com/keys)  
-- [Groq Documentation](https://console.groq.com/docs/overview)
-
-### Gemini API Key
-- [Get your API Key](https://aistudio.google.com/apikey)  
-- [Gemini Documentation](https://ai.google.dev/gemini-api/docs/models)
-
+## 🖼️ Example Output
