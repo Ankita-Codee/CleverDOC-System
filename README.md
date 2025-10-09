@@ -1,4 +1,4 @@
-# 🧠 Clever Doc System
+# 🧠 CleverDoc System
 
 ## 🔍 Overview / Use Case
 **Clever Doc System** is an **LLM-powered intelligent document analysis platform** that combines **Retrieval-Augmented Generation (RAG)** with **large language models (LLMs)** to perform deep document understanding, comparison, and visualization.
