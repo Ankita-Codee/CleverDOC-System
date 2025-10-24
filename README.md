@@ -20,7 +20,6 @@ Similarly, **researchers** can compare policy drafts or technical reports to tra
 | **OpenAI API** | LLM-based document analysis, comparison, and Q&A |
 | **OpenAI Embeddings** | Converts text into vectors for semantic search |
 | **Pinecone** | Vector database for storing and retrieving embeddings |
-| **Azure AI Foundry** | Image generation and model deployment |
 | **FastAPI** | Lightweight Python backend for API development |
 | **Docker** | Containerization for deployment |
 | **GitHub Actions (CI/CD)** | Automated build, test, and deployment pipeline |
